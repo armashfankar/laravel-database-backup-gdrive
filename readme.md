@@ -76,7 +76,7 @@ uses the [Blade](https://laravel.com/docs/8.x/blade) templating system.
     
     ```
 
-7. Migrate database & seed 10k records:
+7. Migrate database:
     ```shell script
     php artisan migrate
     ```
