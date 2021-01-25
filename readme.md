@@ -9,7 +9,7 @@ Create a demo laravel project:
 This is the codebase for the module, which has one interface:
 
 ### Demo Video
-Link: 
+Link: https://res.cloudinary.com/armashfankar/video/upload/v1611608507/armash-google-drive-backup_gzkins.mp4
 
 
 ## Getting started
@@ -50,7 +50,7 @@ uses the [Blade](https://laravel.com/docs/8.x/blade) templating system.
     
     ```
 
-4. Configure Database & Cache Drive in `.env` file:
+4. Configure Database & Google Drive Credentials in `.env` file:
     
     1. Database
     ```
@@ -60,6 +60,14 @@ uses the [Blade](https://laravel.com/docs/8.x/blade) templating system.
     DB_DATABASE=gdrive_backup
     DB_USERNAME=root
     DB_PASSWORD=
+    ```
+    
+    2. Google Drive
+    ```    
+    GOOGLE_DRIVE_CLIENT_ID=
+    GOOGLE_DRIVE_CLIENT_SECRET=
+    GOOGLE_DRIVE_REFRESH_TOKEN=
+    GOOGLE_DRIVE_FOLDER_ID=null
     ```
 
 5. Create MySQL Database:
