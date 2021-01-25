@@ -39,7 +39,7 @@ uses the [Blade](https://laravel.com/docs/8.x/blade) templating system.
 
 2. Install the requirements for the repository using the `composer`:
    ```shell script
-    cd donation-box-paypal/
+    cd laravel-database-backup-gdrive/
     composer install
     
     ```
